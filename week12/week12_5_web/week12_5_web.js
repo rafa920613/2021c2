@@ -8,6 +8,7 @@ var choice;
 
 function draw() {
     background(color(0xDF, 0xEA, 0x45));
+    fill(color(0x45,0xEA,0x45));
     if (choice == 0)
         rect(50, 50, 150, 2);
     if (choice == 1)
